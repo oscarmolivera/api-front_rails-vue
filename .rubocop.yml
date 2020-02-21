@@ -2585,6 +2585,8 @@ Style/Documentation:
   Exclude:
     - 'spec/**/*'
     - 'test/**/*'
+    - 'app/controllers/*'
+    - 'app/models/*'
 
 Style/DocumentationMethod:
   Description: 'Checks for missing documentation comment for public methods.'
