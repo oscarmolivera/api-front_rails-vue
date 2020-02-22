@@ -39,13 +39,14 @@ class RecordsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_record
-      @record = Record.find(params[:id])
-    end
 
-    # Only allow a trusted parameter "white list" through.
-    def record_params
-      params.require(:record).permit(:tittle, :year, :user_id)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_record
+    @record = Record.find(params[:id])
+  end
+
+  # Only allow a trusted parameter "white list" through.
+  def record_params
+    params.require(:record).permit(:tittle, :year, :user_id)
+  end
 end
