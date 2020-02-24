@@ -1,5 +1,7 @@
 class ArtistsController < ApplicationController
-  before_action :set_artist, only: [:show, :update, :destroy]
+  before_action :set_artist, only: %i[show update destroy]
+  before_actrion :authorize_action_request!, except: %i[index show]
+
 
   # GET /artists
   def index

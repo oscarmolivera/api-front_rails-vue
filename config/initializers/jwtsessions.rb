@@ -1,1 +1,1 @@
-JWTSessions.encryption = 'bwYiAnNnxxfUzsTo&-lCn8PNq9tbVsfGwkMW9jww/='
+JWTSessions.encryption_key = 'bwYiAnNnxxfUzsTo&-lCn8PNq9tbVsfGwkMW9jww/='
